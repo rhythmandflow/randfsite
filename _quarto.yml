@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Rhyhtm & Flow"
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Upcoming Events
+        href: upcomingevents.qmd
+      - text: About
+        href: about.qmd
+      - text: Podcast
+        href: podcast.qmd
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    toc: true
+    toc-depth: 2
